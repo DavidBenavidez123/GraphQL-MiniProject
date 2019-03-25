@@ -8,7 +8,7 @@ const {
     GraphQLID,
     GraphQLInt,
     GraphQLList,
-} = graphql;
+} = graphql ;
 
 // dummy data
 var books = [
