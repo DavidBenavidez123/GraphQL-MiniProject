@@ -30,6 +30,7 @@ class BookList extends Component {
     return (
       <div>
         <ul id="book-list">{this.displayBooks()}</ul>
+        
         <BookDetails bookId={this.state.selected} />
       </div>
     );
