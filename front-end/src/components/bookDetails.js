@@ -23,6 +23,7 @@ class BookDetails extends Component {
       return <div>No book selected...</div>;
     }
   }
+  
   render() {
     return <div id="book-details">{this.displayBookDetails()}</div>;
   }
